@@ -2,7 +2,7 @@
 [![](https://images.microbadger.com/badges/image/weaveworksdemos/orders.svg)](http://microbadger.com/images/weaveworksdemos/orders "Get your own image badge on microbadger.com")
 
 # orders
-A microservices-demo service that provides ordering capabilities.
+A microservices-demo service that provides ordering capabilities for shopping carts.
 
 This build is built, tested and released by travis.
 
@@ -16,7 +16,7 @@ Checkout the API Spec [here](http://microservices-demo.github.io/api/index?url=h
 `mvn -DskipTests package`
 
 ## Docker
-`GROUP=weaveworksdemos COMMIT=test ./scripts/build.sh`
+`GROUP=tw_workshop COMMIT=latest ./scripts/build.sh`
 
 # Test
 `./test/test.sh < python testing file >`. For example: `./test/test.sh unit.py`
@@ -28,4 +28,4 @@ Checkout the API Spec [here](http://microservices-demo.github.io/api/index?url=h
 `curl http://localhost:8082`
 
 # Push
-`GROUP=weaveworksdemos COMMIT=test ./scripts/push.sh`
+`GROUP=tw_workshop COMMIT=test ./scripts/push.sh`
